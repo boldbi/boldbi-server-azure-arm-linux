@@ -44,7 +44,7 @@
       "P3V3_8Core_32GB_PROD": "P3v3"
     },
     "skuName": "[variables('planSkuMap')[parameters('appServicePlanSize')]]",
-    "dockerImage": "DOCKER|syncfusion/boldbi:latest",
+    "dockerImage": "DOCKER|syncfusion/boldbi:17.1.30",
     "blobStorageUri": "[concat(parameters('storageAccountName'), '.blob.core.windows.net')]"
   },
   "resources": [
