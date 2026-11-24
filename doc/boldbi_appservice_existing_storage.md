@@ -44,7 +44,7 @@ This guide explains how to deploy **Bold BI** on **Azure App Services (Linux con
 1. On the deployment page, choose the **Build your own template in the editor** option.
    ![build_your_own_template](../images/own_template.png)
 
-2. Open the [ARM template JSON file](../arm-template/boldbi-appservice.json), copy the entire JSON content, and paste it into the editor.
+2. Open the [ARM template JSON file](../arm-template/boldbi_appservice_existing_storage.json), copy the entire JSON content, and paste it into the editor.
    ![build_your_own_template_edit](../images/own_template_save.png)
 
 3. Click **Save + Continue**.
